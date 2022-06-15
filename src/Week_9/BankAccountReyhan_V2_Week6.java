@@ -1,6 +1,9 @@
 package Week_9;
 
+import java.util.ArrayList;
 import java.util.Scanner;
+
+import static sun.security.jgss.GSSUtil.login;
 
 public class BankAccountReyhan_V2_Week6 {
     public static void main(String[] args) {
@@ -14,25 +17,35 @@ public class BankAccountReyhan_V2_Week6 {
         client3.setInfo(3, "hira","d","female",323,100);
 
 
+        ArrayList<Client>  clientDataBase= new ArrayList<>();
+        clientDataBase.add(client1);
+        clientDataBase.add(client2);
+        clientDataBase.add(client3);
 
+//        int balance = 100;
+//        int password = 123;
 
-        int balance = 100;
-        int password = 123;
+        Client loggedinClient=login(clientDataBase);
 
-        System.out.println("please enter your password");
-        int inputPassword = userInput();
-        if (!(inputPassword == password)) {
-
-            for (int i = 0; i < 3; i++) {
-                System.err.println("incorrect password");
-                System.out.println("enter your password again");
-                inputPassword = userInput();
-
-                if (inputPassword == password) {
-                    break;
-                }
-            }
-        }
+//
+//        System.out.println("please enter your password");
+//        int currenClientid=userInput();
+//        System.out.println("please enter your password");
+//        int inputPassword = userInput();
+//
+//
+//        if (!(inputPassword == password)) {
+//
+//            for (int i = 0; i < 3; i++) {
+//                System.err.println("incorrect password");
+//                System.out.println("enter your password again");
+//                inputPassword = userInput();
+//
+//                if (inputPassword == password) {
+//                    break;
+//                }
+//            }
+//        }
 
         if (inputPassword == password) {
 
@@ -81,6 +94,56 @@ public class BankAccountReyhan_V2_Week6 {
         }
 
     }
+
+    private static Client login(ArrayList<Client>  clientDataBase) {
+
+        Client loggedInClient = null;
+        boolean isClientFound = false;
+
+        while (true) {
+            System.out.println("please enter your client id");
+            int inputClient_Id = userInput();
+            System.out.println("please enter your password");
+            int inputPassword = userInput();
+            int a = clientDataBase.size();
+
+            for (int i = 0; i <= clientDataBase.size() - 1; i++) {
+                if (clientDataBase.get(i).client_id == inputClient_Id && clientDataBase.get(i).password == inputPassword) {
+                    System.out.println("Login Succesful");
+                    //currentClientindex = i;
+                    loggedInClient = clientDataBase.get(i);
+                    isClientFound = true;
+                    break;
+                }
+            }
+            if (!isClientFound) {
+                System.out.println(" Client-Id or Password is not correct!! Try again please !!!");
+            } else break;
+        }
+        return loggedInClient;
+
+//        System.out.println("please enter client id");
+//        int currenClientid=userInput();
+//        System.out.println("please enter your password");
+//        int inputPassword = userInput();
+//
+//
+//        if (!(inputPassword == password)) {
+//
+//            for (int i = 0; i < 3; i++) {
+//                System.err.println("incorrect password");
+//                System.out.println("enter your password again");
+//                inputPassword = userInput();
+//
+//                if (inputPassword == password) {
+//                    break;
+//                }
+//            }
+//        }
+//
+
+    }
+
     public static int userInput() {
 
         int userInput = new Scanner(System.in).nextInt();
