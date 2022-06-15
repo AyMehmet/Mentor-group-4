@@ -4,7 +4,7 @@ import static Week_9.Functions.login;
 import static Week_9.Functions.menu;
 
 
-public class BankAccountReyhan_V2_Week6 {
+public class BankAccountReyhan_V2_Week6r {
     public static void main(String[] args) {
 
 
