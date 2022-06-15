@@ -3,7 +3,6 @@ package Week_9;
 import java.util.Scanner;
 
 public class BankAccountReyhan_V2_Week6 {
-
     public static void main(String[] args) {
 
 
@@ -72,14 +71,12 @@ public class BankAccountReyhan_V2_Week6 {
         }
 
     }
-
     public static int userInput() {
 
         int userInput = new Scanner(System.in).nextInt();
         return userInput;
 
     }
-
     public static int deposit() {
 
         System.out.println("please enter deposit amount");
@@ -87,7 +84,6 @@ public class BankAccountReyhan_V2_Week6 {
         return deposit;
 
     }
-
     public static int withdraw() {
 
         System.out.println("please enter withdraw amount");
