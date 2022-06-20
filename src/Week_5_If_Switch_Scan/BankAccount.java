@@ -9,14 +9,14 @@ public class BankAccount {
 
         int balance = 100;
         int withdraw;
-        int pasword = 123;
+        int password = 123;
 
         Scanner scanner = new Scanner(System.in);
 
-        System.out.println("please enter your pasword : ");
+        System.out.println("please enter your password : ");
         int userinputpassword = scanner.nextInt();
 
-        if (userinputpassword == pasword) {
+        if (userinputpassword == password) {
 
             System.out.println(" 1 : deposit ");
             System.out.println(" 2 : withdraw");
@@ -29,16 +29,16 @@ public class BankAccount {
             switch (action) {
 
                 case 1:
-                    System.out.println("please enter diposit  ammount");
+                    System.out.println("please enter deposit  amount");
                     int deposit = scanner.nextInt();
                     balance = balance + deposit;
                     System.out.println("your new balance is =" + balance);
                     break;
                 case 2:
-                    System.out.println("please enter withdraw ammount");
+                    System.out.println("please enter withdraw amount");
                     withdraw = scanner.nextInt();
                     if (withdraw <= balance) {
-                        System.out.println("you withdrawed =" + withdraw);
+                        System.out.println("you withdrew =" + withdraw);
                         balance = balance - withdraw;
                         System.out.println("your new balance is =" + balance);
                     } else if (withdraw > balance) {
@@ -49,7 +49,7 @@ public class BankAccount {
                     System.out.println("default option");
             }
         }
-        else System.out.println("wrongpassword");
+        else System.out.println("wrong password");
         System.out.println("exiting");
     }
 }

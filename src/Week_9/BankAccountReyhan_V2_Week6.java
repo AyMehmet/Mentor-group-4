@@ -1,5 +1,6 @@
 package Week_9;
 
+import static Week_6_Methods_Loops.BankAccount1.deposit;
 import static Week_9.Functions.login;
 import static Week_9.Functions.menu;
 
