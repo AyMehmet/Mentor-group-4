@@ -39,20 +39,7 @@ public class Functions {
         return userInput;
 
     }
-    public static int deposit() {
 
-        System.out.println("please enter deposit amount");
-        int deposit = userInput();
-        return deposit;
-
-    }
-    public static int withdraw(Client loggedinClient) {
-
-        System.out.println("please enter withdraw amount");
-        int withdraw = userInput();
-        return withdraw;
-
-    }
 
 
 
