@@ -46,7 +46,7 @@ public class Functions {
         return deposit;
 
     }
-    public static int withdraw() {
+    public static int withdraw(Client loggedinClient) {
 
         System.out.println("please enter withdraw amount");
         int withdraw = userInput();
