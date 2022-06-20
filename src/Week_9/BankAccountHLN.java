@@ -3,8 +3,9 @@ package Week_9;
 import static Week_6_Methods_Loops.BankAccount1.deposit;
 import static Week_9.Functions.*;
 
+public class BankAccountHLN {
 
-public class BankAccountReyhan_V2_Week6 {
+
     public static void main(String[] args) {
 
 
@@ -35,7 +36,7 @@ public class BankAccountReyhan_V2_Week6 {
 //                        }
 //                        break;
 
-                    transfer (loggedinClient, transferClient);
+                    transfer(loggedinClient, transferClient);
 
                 default:
                     System.out.println("you have exited the menu");
@@ -46,4 +47,3 @@ public class BankAccountReyhan_V2_Week6 {
 
     }
 }
-
