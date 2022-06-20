@@ -1,5 +1,7 @@
 package Week_6_Methods_Loops;
 
+import Week_9.Client;
+
 import java.util.Scanner;
 
 public class BankAccount1 {
@@ -66,7 +68,7 @@ public class BankAccount1 {
         System.out.println(" please enter your selection");
     }
 
-    public static void deposit(int deposit){
+    public static void deposit(Client deposit){
         balance = balance + deposit;
         System.out.println("your new balance is =" + balance);
 
