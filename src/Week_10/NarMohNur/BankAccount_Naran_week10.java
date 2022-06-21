@@ -1,10 +1,14 @@
-package Week_9;
+/*
+package Week_10;
+
+import Week_9.Client;
+import Week_9.Datas;
 
 import static Week_6_Methods_Loops.BankAccount1.deposit;
 import static Week_9.Functions.*;
 
 
-public class BankAccountReyhan_V2_Week6 {
+public class BankAccount_Naran_week10 {
     public static void main(String[] args) {
 
 
@@ -36,8 +40,9 @@ public class BankAccountReyhan_V2_Week6 {
 //                        }
 //                        break;
 
+                case 3:
                     transfer (loggedinClient, transferClient);
-
+//assign transfer client to clients database
                 default:
                     System.out.println("you have exited the menu");
                     return;
@@ -48,5 +53,5 @@ public class BankAccountReyhan_V2_Week6 {
     }
 }
 
-
+*/
 
