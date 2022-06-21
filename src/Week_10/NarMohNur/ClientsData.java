@@ -3,7 +3,7 @@ package Week_10.NarMohNur;
 import Week_9.Client;
 import org.w3c.dom.ls.LSOutput;
 
-public class BankAccount_Naran_week10 {
+public class ClientsData {
 
     public static void main(String[] args) {
         Client[] dataBase = new Client[3];
