@@ -11,14 +11,15 @@ public class BankAccount_Naran_week10 {
 
 
 
+
     }
 
     Client c1 = new Client(0001, "Elvis", "Presley",
-            'M', "EPresley", 100);
+            "M", 1111, 100);
     Client c2 = new Client(0002, "Elton", "John",
-            'M', "EJohn", 1000);
+            "M", 2222, 1000);
     Client c3 = new Client(0003, "Britney", "Spears",
-            'W', "ESpears", 10000);
+            "W", 3333, 10000);
 
 
 
