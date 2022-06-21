@@ -6,6 +6,13 @@ import org.w3c.dom.ls.LSOutput;
 public class ClientsData {
 
     public static void main(String[] args) {
+        Client c1 = new Client(0001, "Elvis", "Presley",
+                "M", 1111, 100);
+        Client c2 = new Client(0002, "Elton", "John",
+                "M", 2222, 1000);
+        Client c3 = new Client(0003, "Britney", "Spears",
+                "W", 3333, 10000);
+
         Client[] dataBase = new Client[3];
 
 
@@ -14,12 +21,6 @@ public class ClientsData {
 
     }
 
-    Client c1 = new Client(0001, "Elvis", "Presley",
-            "M", 1111, 100);
-    Client c2 = new Client(0002, "Elton", "John",
-            "M", 2222, 1000);
-    Client c3 = new Client(0003, "Britney", "Spears",
-            "W", 3333, 10000);
 
 
 
