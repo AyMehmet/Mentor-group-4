@@ -1,3 +1,4 @@
+/*
 package Week_10;
 
 import Week_9.Client;
@@ -39,8 +40,9 @@ public class BankAccount_Naran_week10 {
 //                        }
 //                        break;
 
+                case 3:
                     transfer (loggedinClient, transferClient);
-
+//assign transfer client to clients database
                 default:
                     System.out.println("you have exited the menu");
                     return;
@@ -51,5 +53,5 @@ public class BankAccount_Naran_week10 {
     }
 }
 
-
+*/
 

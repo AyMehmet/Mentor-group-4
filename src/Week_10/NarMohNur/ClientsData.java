@@ -13,7 +13,16 @@ public class ClientsData {
         Client c3 = new Client(0003, "Britney", "Spears",
                 "W", 3333, 10000);
 
-        Client[] dataBase = new Client[3];
+        Client[] clientsDB = new Client[3];
+        clientsDB[0] = new Client(0001, "Elvis", "Presley",
+                "M", 1111, 100);
+        clientsDB[1] = new Client(0002, "Elton", "John",
+                "M", 2222, 1000);
+        clientsDB[2] = new Client(0003, "Britney", "Spears",
+                "W", 3333, 10000);
+
+
+
 
 
 
