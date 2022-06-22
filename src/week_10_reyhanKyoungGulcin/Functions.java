@@ -112,21 +112,18 @@ public class Functions {
             if (option == 1) {
                 System.out.println("enter the amount you would like to transfer");
                 amount = userInput();
-                if (loggedInClient.balance < amount) {
-                    continue;
-                }
             } else {
                 menu();
                 return;
             }
 
-            loggedInClient.balance -= amount;
-            transferClient.balance += amount;
-
-            System.out.println("you have successfully transferred $" + amount + " to " + transferClient.firstname + " " + transferClient.lastName);
-            System.out.println("your new balance is " + loggedInClient.balance);
-
         }
+
+        loggedInClient.balance -= amount;
+        transferClient.balance += amount;
+
+        System.out.println("you have successfully transferred $" + amount + " to " + transferClient.firstname + " " + transferClient.lastName);
+        System.out.println("your new balance is " + loggedInClient.balance);
 
     }
 
