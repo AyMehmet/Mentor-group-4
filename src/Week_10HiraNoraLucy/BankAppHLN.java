@@ -3,7 +3,10 @@ package Week_10HiraNoraLucy;
 import javax.xml.crypto.Data;
 import java.util.ArrayList;
 import java.util.Scanner;
-public class Functions {
+
+public class BankAppHLN {
+
+
     static Client login(ArrayList<Client> clientDataBase) {
 
         Client loggedInClient = null;
@@ -84,6 +87,5 @@ public class Functions {
 
     }
 }
-
 
 
