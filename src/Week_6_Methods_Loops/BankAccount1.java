@@ -69,7 +69,7 @@ public class BankAccount1 {
     }
 
     public static void deposit(Client deposit){
-        balance = balance + deposit;
+        //balance = balance + deposit;
         System.out.println("your new balance is =" + balance);
 
     }
