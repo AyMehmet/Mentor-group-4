@@ -32,7 +32,6 @@ public class Functions {
 
     }
 
-
     public static int userInput() {
 
         int userInput = new Scanner(System.in).nextInt();
@@ -75,7 +74,6 @@ public class Functions {
         System.out.println("balance: " + loggedInClient.balance);
     }
 
-
     public static void transfer(Client loggedInClient) {
 
         Client transferClient = new Client(0, null, null, null, 0, 0);
@@ -88,7 +86,8 @@ public class Functions {
             for (Client each : Datas.getClientData()) {
                 if (each.client_id == enteredID) {
                     validID = true;
-                    transferClient = new Client(enteredID, each.firstname, each.lastName, each.gender, each.password, each.balance);
+                    transferClient = each;
+                    //new Client(enteredID, each.firstname, each.lastName, each.gender, each.password, each.balance);
                     break;
                 }
             }
@@ -126,7 +125,6 @@ public class Functions {
         System.out.println("your new balance is " + loggedInClient.balance);
 
     }
-
 
     public static int menu() {
 
