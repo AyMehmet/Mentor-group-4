@@ -30,7 +30,7 @@ public class BankAccount1 {
                     switch (action) {
                         case 1:
                             System.out.println("please enter withdraw ammount");
-                            deposit(scanner.nextInt());
+                          //  deposit(scanner.nextInt());
                             break;
 
 //
