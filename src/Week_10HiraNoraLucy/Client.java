@@ -1,4 +1,4 @@
-package Week_9;
+package Week_10HiraNoraLucy;
 
 public class Client {
 

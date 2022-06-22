@@ -1,11 +1,10 @@
-package Week_9;
+package Week_10HiraNoraLucy;
 
+import javax.xml.crypto.Data;
 import java.util.ArrayList;
 import java.util.Scanner;
-
 public class Functions {
-
-    public static Client login(ArrayList<Client> clientDataBase) {
+    static Client login(ArrayList<Client> clientDataBase) {
 
         Client loggedInClient = null;
         boolean isClientFound = false;
@@ -39,9 +38,39 @@ public class Functions {
         return userInput;
 
     }
+    public static int deposit(Client client) {
+        System.out.println("Your balance is: " + client.balance);
+        System.out.println("please enter deposit amount");
+        int deposit = userInput();
+        return deposit;
+
+    }
+    public static int withdraw(Client client) {
+        System.out.println("Your balance is: " + client.balance);
+        System.out.println("please enter withdraw amount");
+        int withdraw = userInput();
+        return withdraw;
+
+    }
+    public static void transfer(Client client){
+        System.out.println("Your balance is: " + client.balance);
+        System.out.println("Enter the recipient id: ");
+        int id = userInput();
+
+        System.out.println("How much do you want to transfer: ");
+        int amount = userInput();
+
+        for (Client each : Datas.getClientData()) {
+            if(id == each.client_id){
+                each.balance+=amount;
+                client.balance-=amount;
+                System.out.println("Sender balance = " + client.balance);
+                System.out.println("Recipient balance = " +each.balance);
+            }
+        }
 
 
-
+    }
 
     public static int  menu (){
 
@@ -54,5 +83,7 @@ public class Functions {
         return userInput();
 
     }
-
 }
+
+
+
