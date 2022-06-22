@@ -1,8 +1,5 @@
 package Week_10HiraNoraLucy;
 
-import week_10_reyhanKyoungGulcin.Client;
-import week_10_reyhanKyoungGulcin.Datas;
-
 import java.util.ArrayList;
 import java.util.Scanner;
 
@@ -91,7 +88,7 @@ public class Functions {
             for (week_10_reyhanKyoungGulcin.Client each : Datas.getClientData()) {
                 if (each.client_id == enteredID) {
                     validID = true;
-                    transferClient = new Client(enteredID, each.firstname, each.lastName, each.gender, each.password, each.balance);
+                    transferClient = new week_10_reyhanKyoungGulcin.Client(enteredID, each.firstname, each.lastName, each.gender, each.password, each.balance);
                     break;
                 }
             }
