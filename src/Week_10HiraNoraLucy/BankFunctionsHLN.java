@@ -56,7 +56,7 @@ public class BankFunctionsHLN {
 
         }
 
-        public static void transfer(Client client) {
+   /*     public static void transfer(Client client) {
             System.out.println("Your balance is: " + client.balance);
             System.out.println("Enter the recipient id: ");
             int id = userInput();
@@ -75,6 +75,8 @@ public class BankFunctionsHLN {
 
 
         }
+
+    */
 
         public static int menu() {
 
