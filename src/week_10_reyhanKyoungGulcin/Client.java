@@ -1,4 +1,4 @@
-package Week_9;
+package week_10_reyhanKyoungGulcin;
 
 public class Client {
 

@@ -5,8 +5,7 @@ import Week_9.Client;
 import Week_9.Datas;
 
 import static Week_6_Methods_Loops.BankAccount1.deposit;
-import static Week_9.Functions.login;
-import static Week_9.Functions.menu;
+import static Week_9.Functions.*;
 
 
 public class BankAccount_Naran_week10 {
@@ -18,6 +17,7 @@ public class BankAccount_Naran_week10 {
             switch (menu()) {
 
                 case 1:
+
                     deposit(loggedinClient);
 
 //                        balance += deposit();
