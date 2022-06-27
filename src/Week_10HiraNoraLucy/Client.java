@@ -18,7 +18,7 @@ public class Client {
         this.balance = balance;
     }
 
-    @Override
+
     public String toString() {
         return "Client{" +
                 "client_id=" + client_id +
@@ -32,4 +32,5 @@ public class Client {
 
 
     }
+
 }
