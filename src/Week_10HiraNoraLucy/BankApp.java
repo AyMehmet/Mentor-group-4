@@ -1,11 +1,9 @@
 package Week_10HiraNoraLucy;
 
-import week_10_reyhanKyoungGulcin.Client;
-import week_10_reyhanKyoungGulcin.Datas;
+import Week_10_reyhanKyoungGulcin.Client;
+import Week_10_reyhanKyoungGulcin.Datas;
 
-import java.util.Scanner;
-
-import static week_10_reyhanKyoungGulcin.Functions.*;
+import static Week_10_reyhanKyoungGulcin.Functions.*;
 
 public class BankApp {
 

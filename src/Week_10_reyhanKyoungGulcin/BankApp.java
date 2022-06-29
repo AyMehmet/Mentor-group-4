@@ -1,6 +1,6 @@
-package week_10_reyhanKyoungGulcin;
+package Week_10_reyhanKyoungGulcin;
 
-import static week_10_reyhanKyoungGulcin.Functions.*;
+import static Week_10_reyhanKyoungGulcin.Functions.*;
 
 public class BankApp {
 

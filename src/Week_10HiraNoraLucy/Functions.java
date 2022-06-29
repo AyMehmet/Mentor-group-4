@@ -5,9 +5,9 @@ import java.util.Scanner;
 
 public class Functions {
 
-    public static week_10_reyhanKyoungGulcin.Client login(ArrayList<week_10_reyhanKyoungGulcin.Client> clientDataBase) {
+    public static Week_10_reyhanKyoungGulcin.Client login(ArrayList<Week_10_reyhanKyoungGulcin.Client> clientDataBase) {
 
-        week_10_reyhanKyoungGulcin.Client loggedInClient = null;
+        Week_10_reyhanKyoungGulcin.Client loggedInClient = null;
         boolean isClientFound = false;
 
         while (true) {
@@ -40,7 +40,7 @@ public class Functions {
 
     }
 
-    public static void deposit(week_10_reyhanKyoungGulcin.Client loggedInClient) {
+    public static void deposit(Week_10_reyhanKyoungGulcin.Client loggedInClient) {
 
         System.out.println("please enter deposit amount");
         int depositAmount = userInput();
@@ -50,7 +50,7 @@ public class Functions {
 
     }
 
-    public static void withdraw(week_10_reyhanKyoungGulcin.Client loggedInClient) {
+    public static void withdraw(Week_10_reyhanKyoungGulcin.Client loggedInClient) {
 
         System.out.println("please enter withdraw amount");
         int withdrawAmount = userInput();
@@ -65,7 +65,7 @@ public class Functions {
 
     }
 
-    public static void showClientInfo(week_10_reyhanKyoungGulcin.Client loggedInClient) {
+    public static void showClientInfo(Week_10_reyhanKyoungGulcin.Client loggedInClient) {
 
         System.out.println("user information: ");
         System.out.println("client id: " + loggedInClient.client_id);
@@ -76,19 +76,19 @@ public class Functions {
     }
 
 
-    public static void transfer(week_10_reyhanKyoungGulcin.Client loggedInClient) {
+    public static void transfer(Week_10_reyhanKyoungGulcin.Client loggedInClient) {
 
-        week_10_reyhanKyoungGulcin.Client transferClient = new week_10_reyhanKyoungGulcin.Client(0, null, null, null, 0, 0);
+        Week_10_reyhanKyoungGulcin.Client transferClient = new Week_10_reyhanKyoungGulcin.Client(0, null, null, null, 0, 0);
         System.out.println("enter the id of the client you want to transfer money");
         int enteredID = userInput();
         boolean validID = false;
 
         while (true) {
 
-            for (week_10_reyhanKyoungGulcin.Client each : Datas.getClientData()) {
+            for (Week_10_reyhanKyoungGulcin.Client each : Datas.getClientData()) {
                 if (each.client_id == enteredID) {
                     validID = true;
-                    transferClient = new week_10_reyhanKyoungGulcin.Client(enteredID, each.firstname, each.lastName, each.gender, each.password, each.balance);
+                    transferClient = new Week_10_reyhanKyoungGulcin.Client(enteredID, each.firstname, each.lastName, each.gender, each.password, each.balance);
                     break;
                 }
             }

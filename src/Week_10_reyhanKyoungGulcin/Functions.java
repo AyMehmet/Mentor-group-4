@@ -1,4 +1,4 @@
-package week_10_reyhanKyoungGulcin;
+package Week_10_reyhanKyoungGulcin;
 
 import java.util.ArrayList;
 import java.util.Scanner;
