@@ -1,46 +1,44 @@
-package Week_9;
+package Week_10;
+
+
 
 import java.util.ArrayList;
 import java.util.Scanner;
 
-public class Functions {
+public class GeneralFuntionsUtils {
 
-    public static Client login(ArrayList<Client> clientDataBase) {
+
+    public  static  Client login() {
 
         Client loggedInClient = null;
-        boolean isClientFound = false;
-
         while (true) {
             System.out.println("please enter your client id");
             int inputClient_Id = userInput();
             System.out.println("please enter your password");
             int inputPassword = userInput();
-
-            for (int i = 0; i <= clientDataBase.size() - 1; i++) {
-                if (clientDataBase.get(i).client_Id == inputClient_Id && clientDataBase.get(i).password == inputPassword) {
-                    System.out.println("Login Succesful");
-                    loggedInClient = clientDataBase.get(i);
-                    isClientFound = true;
-                    break;
-                }
-            }
-            if (!isClientFound) {
-                System.out.println(" Client-Id or Password is not correct!! Try again please !!!");
-            } else break;
+            loggedInClient = findClient(inputClient_Id);
+            if (!loggedInClient.equals(null) && loggedInClient.password == inputPassword) {
+                System.out.println("Login Succesful");
+                break;
+            } else System.out.println(" Client-Id or Password is not correct!! Try again please !!!");
         }
-        return loggedInClient;
 
+        return loggedInClient;
     }
 
+    public static Client findClient(int client_id){
+        for (Client eachClient:ClientDataBase.getClientData()){
+            if (eachClient.client_Id==client_id){
+                return eachClient;
+            }
+        }
+        return null;
+    }
 
     public static int userInput() {
-
         int userInput = new Scanner(System.in).nextInt();
         return userInput;
-
     }
-
-
 
 
     public static int  menu (){
@@ -54,5 +52,4 @@ public class Functions {
         return userInput();
 
     }
-
 }

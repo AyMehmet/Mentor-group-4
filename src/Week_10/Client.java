@@ -1,28 +1,19 @@
-package Week_9;
+package Week_10;
 
-import java.util.Date;
+import java.time.LocalDate;
 
 public class Client {
     int client_Id;
     String firstName;
     String lastName;
-    Date birthday;
-    Date creationTimeofAccount;
+    LocalDate birthday;
+    LocalDate creationTimeofAccount;
     char gender;
     int balance;
     int password;
 
-    public Client(int client_Id, String firstName, String lastName, char gender, int balance, int password) {
-        this.client_Id = client_Id;
-        this.firstName = firstName;
-        this.lastName = lastName;
-        this.gender = gender;
-        this.balance = balance;
-        this.password = password;
-    }
 
-
-    public Client(int client_Id, String firstName, String lastName, Date birthday, Date creationTimeofAccount, char gender, int balance, int password) {
+    public Client(int client_Id, String firstName, String lastName, LocalDate birthday, LocalDate creationTimeofAccount, char gender, int balance, int password) {
         this.client_Id = client_Id;
         this.firstName = firstName;
         this.lastName = lastName;
