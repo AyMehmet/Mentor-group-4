@@ -1,6 +1,7 @@
 package Week_11_memo;
 
 import java.time.LocalDate;
+import java.util.ArrayList;
 import java.util.List;
 
 public class Client {
@@ -12,9 +13,10 @@ public class Client {
     private char gender;
     private int password;
 
-    List<Account> client_Account;
+    private Account  client_Account;
 
-    public Client(int client_Id, String firstName, String lastName, LocalDate birthday, LocalDate creation_date, char gender, int password, List<Account> client_Account) {
+
+    public Client(int client_Id, String firstName, String lastName, LocalDate birthday, LocalDate creation_date, char gender, int password, Account client_Account) {
         this.client_Id = client_Id;
         this.firstName = firstName;
         this.lastName = lastName;
@@ -81,11 +83,11 @@ public class Client {
         this.password = password;
     }
 
-    public List<Account> getClient_Account() {
+    public Account getClient_Account() {
         return client_Account;
     }
 
-    public void setClient_Account(List<Account> client_Account) {
+    public void setClient_Account(Account client_Account) {
         this.client_Account = client_Account;
     }
 }
