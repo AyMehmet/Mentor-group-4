@@ -1,14 +1,15 @@
-package week_10_reyhanKyoungGulcin;
+package Week_12.reyhan;
 
-import static week_10_reyhanKyoungGulcin.Functions.*;
+import static Week_12.reyhan.ClientFunctions.*;
+import static Week_12.reyhan.AccountFunctions.*;
 
 public class BankApp {
 
-    //comment
-
     public static void main(String[] args) {
 
-        Client loggedInClient = login(Datas.getClientData());
+        DataBase.createDataBase();
+
+        Client loggedInClient = login(DataBase.getClientData());
 
         while (true) {
 
@@ -30,6 +31,10 @@ public class BankApp {
                     showClientInfo(loggedInClient);
                     break;
 
+                case 5:
+                    createInvestAccount(loggedInClient);
+                    break;
+
                 default:
                     System.out.println("you have exited the menu");
                     return;
@@ -39,6 +44,3 @@ public class BankApp {
 
     }
 }
-
-
-

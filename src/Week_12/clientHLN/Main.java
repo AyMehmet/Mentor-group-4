@@ -1,19 +1,25 @@
-package Week_10;
+package Week_12.clientHLN;
 
 
 
-import static Week_10.BankFunctionUtils.*;
-import static Week_10.GeneralFuntionsUtils.*;
+import Week_11_memo.Client;
+import Week_11_memo.Client_Service;
+import Week_11_memo.DataBase_Service;
 
-public class BankAccountReyhan_W10 {
+import static Week_11_memo.Account_Service.*;
+import static Week_11_memo.Client_Service.login;
 
-  /*  public static void main(String[] args) {
+public class Main {
 
-        Client loggedClient= login();
+    public static void main(String[] args) {
+        DataBase_Service.createDataBase();
+
+        Client loggedClient=login();
+
 
         for (int i = 0; i < 5; ) {
 
-            int action = GeneralFuntionsUtils.menu();
+            int action = Client_Service.menu();
             switch (action) {
                 case 1:
                     deposit(loggedClient);
@@ -24,7 +30,13 @@ public class BankAccountReyhan_W10 {
                 case 3:
                     transfer(loggedClient);
                     break;
+
                 case 4:
+                    // createInvestAccount(loggedClient);
+
+                    break;
+
+                case 5:
                     System.out.println(loggedClient);
                     break;
                 default:
@@ -33,10 +45,7 @@ public class BankAccountReyhan_W10 {
             }
         }
     }
-
-   */
 }
-
 
 
 

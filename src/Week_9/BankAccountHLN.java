@@ -1,26 +1,28 @@
-package Week_10HiraNoraLucy;
+package Week_9;
 
-import Week_10_reyhanKyoungGulcin.Client;
-import Week_10_reyhanKyoungGulcin.Datas;
+import static Week_6_Methods_Loops.BankAccount1.deposit;
+//import static Week_9.Functions.*;
 
-import static Week_10_reyhanKyoungGulcin.Functions.*;
+public class BankAccountHLN {
 
-public class BankApp {
 
-    public static void main(String[] args) {
+/*    public static void main(String[] args) {
 
-        Client loggedinClient = login(Datas.getClientData());
+
+       // Client loggedinClient = login(Datas.getClientData());
         for (int i = 0; i < 3; ) {
             switch (menu()) {
 
                 case 1:
-                    deposit(loggedinClient);
+                   // deposit(loggedinClient);
+
 //                        balance += deposit();
 //                        System.out.println("your new balance is " + balance);
-                    break;
+//                        break;
 
                 case 2:
-                    withdraw(loggedinClient);
+                //    withdraw(loggedinClient);
+
 ////                        int withdraw = withdraw();
 ////
 ////                        if (withdraw <= balance) {
@@ -32,13 +34,9 @@ public class BankApp {
 //                        } else {
 //                            System.err.println("your balance is not enough");
 //                        }
-                    break;
+//                        break;
 
-                case 3:
-
-                    transfer(loggedinClient);
-                    break;
-
+                  //  transfer(loggedinClient, transferClient);
 
                 default:
                     System.out.println("you have exited the menu");
@@ -46,10 +44,8 @@ public class BankApp {
 
             }
         }
-
-
+        
     }
+
+ */
 }
-
-
-
