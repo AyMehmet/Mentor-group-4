@@ -5,11 +5,9 @@ package Week_10;
 import static Week_10.BankFunctionUtils.*;
 import static Week_10.GeneralFuntionsUtils.*;
 
-
-
 public class BankAccountReyhan_W10 {
 
-    public static void main(String[] args) {
+  /*  public static void main(String[] args) {
 
         Client loggedClient= login();
 
@@ -35,6 +33,8 @@ public class BankAccountReyhan_W10 {
             }
         }
     }
+
+   */
 }
 
 

@@ -1,11 +1,11 @@
 package Week_10.NarMohNur;
 
-import Week_9.Client;
+import Week_10.Client;
 import org.w3c.dom.ls.LSOutput;
 
 public class ClientsData {
 
-    public static void main(String[] args) {
+  /*  public static void main(String[] args) {
         Client c1 = new Client(0001, "Elvis", "Presley",
                 "M", 1111, 100);
         Client c2 = new Client(0002, "Elton", "John",
@@ -28,7 +28,11 @@ public class ClientsData {
 
 
 
+
+
     }
+
+   */
 
 
 

@@ -1,12 +1,12 @@
 package Week_9;
 
 import static Week_6_Methods_Loops.BankAccount1.deposit;
-import static Week_9.Functions.*;
+//import static Week_9.Functions.*;
 
 public class BankAccountHLN {
 
 
-    public static void main(String[] args) {
+/*    public static void main(String[] args) {
 
 
        // Client loggedinClient = login(Datas.getClientData());
@@ -46,4 +46,6 @@ public class BankAccountHLN {
         }
         
     }
+
+ */
 }

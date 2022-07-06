@@ -1,12 +1,12 @@
 package Week_10;
 
 
-import static Week_10.GeneralFuntionsUtils.findClient;
-import static Week_10.GeneralFuntionsUtils.userInput;
+//import static Week_10.GeneralFuntionsUtils.findClient;
+//import static Week_10.GeneralFuntionsUtils.userInput;
 
 public class BankFunctionUtils {
 
-    public static void deposit(Client loggedinClient) {
+ /*   public static void deposit(Client loggedinClient) {
         System.out.println("please enter deposit amount");
         loggedinClient.balance+=userInput();
         System.out.println("Your current balance is =" + loggedinClient.balance);
@@ -61,5 +61,7 @@ public class BankFunctionUtils {
             }
         }
     }
+
+  */
 
 }
