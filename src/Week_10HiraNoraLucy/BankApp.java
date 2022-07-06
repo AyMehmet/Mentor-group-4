@@ -1,12 +1,15 @@
-package Week_9;
+package Week_10HiraNoraLucy;
 
-import static Week_9.Functions.login;
-import static Week_9.Functions.menu;
+import week_10_reyhanKyoungGulcin.Client;
+import week_10_reyhanKyoungGulcin.Datas;
 
+import java.util.Scanner;
 
-public class BankAccountReyhan_V2_Week6r {
+import static week_10_reyhanKyoungGulcin.Functions.*;
+
+public class BankApp {
+
     public static void main(String[] args) {
-
 
         Client loggedinClient = login(Datas.getClientData());
         for (int i = 0; i < 3; ) {
@@ -14,14 +17,12 @@ public class BankAccountReyhan_V2_Week6r {
 
                 case 1:
                     deposit(loggedinClient);
-
 //                        balance += deposit();
 //                        System.out.println("your new balance is " + balance);
-//                        break;
+                    break;
 
                 case 2:
                     withdraw(loggedinClient);
-
 ////                        int withdraw = withdraw();
 ////
 ////                        if (withdraw <= balance) {
@@ -33,9 +34,13 @@ public class BankAccountReyhan_V2_Week6r {
 //                        } else {
 //                            System.err.println("your balance is not enough");
 //                        }
-//                        break;
+                    break;
 
-                    transfer (loggedinClient, transferClient);
+                case 3:
+
+                    transfer(loggedinClient);
+                    break;
+
 
                 default:
                     System.out.println("you have exited the menu");
@@ -43,6 +48,7 @@ public class BankAccountReyhan_V2_Week6r {
 
             }
         }
+
 
     }
 }

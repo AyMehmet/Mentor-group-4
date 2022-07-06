@@ -1,11 +1,11 @@
-package Week_9;
+package week_10_reyhanKyoungGulcin;
 
 public class Client {
 
     public int client_id;
-    String firstname;
-    String lastName;
-    String gender;
+    public String firstname;
+    public String lastName;
+    public String gender;
     public int password;
     public int balance;
 
@@ -32,4 +32,6 @@ public class Client {
 
 
     }
+
+
 }

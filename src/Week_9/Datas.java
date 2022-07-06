@@ -4,7 +4,7 @@ import java.util.ArrayList;
 
 public class Datas {
 
-    public static ArrayList<Client> getClientData() {
+  /*  public static ArrayList<Client> getClientData() {
 
         Client client1 = new Client();
         Client client2 = new Client();
@@ -21,4 +21,6 @@ public class Datas {
 
         return clientDataBase;
     }
+
+   */
 }
