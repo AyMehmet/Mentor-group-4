@@ -1,6 +1,6 @@
 package Week_6_Methods_Loops;
 
-import Week_9.Client;
+import Week_10.Client;
 
 import java.util.Scanner;
 
