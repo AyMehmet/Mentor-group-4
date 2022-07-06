@@ -8,8 +8,6 @@ public class Client {
     public String gender;
     public int password;
     public int balance;
-    public int investbalance;
-    public int eurobalance;
 
     public Client(int client_id, String firstname, String lastName, String gender, int password, int balance) {
         this.client_id = client_id;
@@ -19,7 +17,6 @@ public class Client {
         this.password = password;
         this.balance = balance;
     }
-
 
     @Override
     public String toString() {

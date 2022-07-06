@@ -1,21 +1,32 @@
 package Week_10.StringPalindromes;
 
+import java.util.Locale;
+
 public class Palindrome1_HLN {
 
-    /*
+
     public static boolean isPalindrome(String str) {
-        int length = str.length();
+        int strLength = str.length();
         String reversed = "";
 
-        for (int i = str.length()-1; i >= 0 ; i++) {
+        for (int i = strLength-1; i >= 0 ; i--) {
            reversed += "" + str.toLowerCase().charAt(i);
         }
 
+        if(reversed.equals(str.toLowerCase())){
+        return true;
+        }
+        return false;
     }
 
 
+    public static void main(String[] args) {
 
-     */
+        String s = "level";
+        System.out.println(isPalindrome(s));
+
+    }
+
 
 
 }
