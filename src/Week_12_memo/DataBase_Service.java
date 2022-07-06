@@ -19,6 +19,9 @@ public class DataBase_Service {
         Client client3=new Client(3,"Reyhan","r",LocalDate.of(2000,1,1),LocalDate.now(),'f',323);
         Client client1=new Client(1,"memo","m", LocalDate.of(1976,01,01),LocalDate.now(),'m',123);
         Client client2=new Client(2,"lucy","g", LocalDate.of(1985,01,01),LocalDate.now(),'f',223);
+        Client client4=new Client()
+
+
         client1.addAccount(account1);
         client2.addAccount(account2);
         client3.addAccount(account3);
