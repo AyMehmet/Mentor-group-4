@@ -4,8 +4,6 @@ import static week_10_reyhanKyoungGulcin.Functions.*;
 
 public class BankApp {
 
-    //comment
-
     public static void main(String[] args) {
 
         Client loggedInClient = login(Datas.getClientData());

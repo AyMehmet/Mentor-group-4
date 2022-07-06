@@ -7,9 +7,9 @@ class as a attribute(has a relation) But still there is only one account for eac
 
 Your Task :
 1. Change Account attribute under Client for 2 accounts for each client,
-2. under main method in options(option 4) there is createInvestAccount Method but it is not avalilable, create this method
+2. under main method in options(option 4) there is createInvestAccount Method but it is not available, create this method
 which is creating  new InvestAccount for  Client.
-3. Change deposit method for transfering money from client blance to same client invest account balance.
+3. Change deposit method for transferring money from client balance to same client invest account balance.
 
 
 Good Luck.

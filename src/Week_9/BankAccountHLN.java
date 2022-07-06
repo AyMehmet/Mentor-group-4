@@ -9,19 +9,19 @@ public class BankAccountHLN {
     public static void main(String[] args) {
 
 
-        Client loggedinClient = login(Datas.getClientData());
+       // Client loggedinClient = login(Datas.getClientData());
         for (int i = 0; i < 3; ) {
             switch (menu()) {
 
                 case 1:
-                    deposit(loggedinClient);
+                   // deposit(loggedinClient);
 
 //                        balance += deposit();
 //                        System.out.println("your new balance is " + balance);
 //                        break;
 
                 case 2:
-                    withdraw(loggedinClient);
+                //    withdraw(loggedinClient);
 
 ////                        int withdraw = withdraw();
 ////
@@ -36,7 +36,7 @@ public class BankAccountHLN {
 //                        }
 //                        break;
 
-                    transfer(loggedinClient, transferClient);
+                  //  transfer(loggedinClient, transferClient);
 
                 default:
                     System.out.println("you have exited the menu");
