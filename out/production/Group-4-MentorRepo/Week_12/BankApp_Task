@@ -1,0 +1,15 @@
+
+Overview : Right now in Bank App each Client has only one Base Account .
+Last week at the begining as a brute force solution for client account idea
+of creating second arraylist and manupilating this arrarylist according to  client id
+was the bacic approach. And then for the better solution we add Account class into Client
+class as a attribute(has a relation) But still there is only one account for each client.
+
+Your Task :
+1. Change Account attribute under Client for 2 accounts for each client,
+2. under main method in options(option 4) there is createInvestAccount Method but it is not available, create this method
+which is creating  new InvestAccount for  Client.
+3. Change deposit method for transferring money from client balance to same client invest account balance.
+
+
+Good Luck.
