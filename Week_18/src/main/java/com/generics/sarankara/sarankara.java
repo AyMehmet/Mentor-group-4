@@ -1,7 +1,8 @@
 package com.generics.sarankara;
 
 
-import com.generics.Printer;
+import com.generics.Mohamed.Printer;
+
 
 import java.util.ArrayList;
 import java.util.List;
@@ -22,16 +23,17 @@ public class sarankara {
 
 
         List<Integer> num = new ArrayList<Integer>();
-        num.add(12,25);
+        num.add(1,2);
 
     }
-    public static void print(ArrayList<Integer> item) {
+    public static <T>void print(ArrayList<Integer> item) {
 
         for (Integer each : item) {
             System.out.println(item);
         }
-        public static <T> void print(T print) {
-            System.out.println(print);
-        }
+
+    }
+    public static <T> void print(T print) {
+        System.out.println(print);
     }
 }
