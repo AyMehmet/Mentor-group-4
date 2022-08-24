@@ -1,6 +1,6 @@
-package com.generics.reyhan;
+package com.generics.hira;
 
-public class Printer <T>{
+public class Printer<T> {
 
     T thingtoPrint;
 
@@ -8,7 +8,7 @@ public class Printer <T>{
         this.thingtoPrint = thingtoPrint;
     }
 
-    public void print(){
+    public void print(T thingtoPrint){
         System.out.println(thingtoPrint);
     }
 }

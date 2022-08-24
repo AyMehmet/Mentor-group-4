@@ -1,6 +1,6 @@
-package com.generics.reyhan;
+package com.generics;
 
-public class PrinterTest {
+public class PrinterTest{
 
     public static void main(String[] args) {
 
@@ -9,7 +9,5 @@ public class PrinterTest {
 
     }
 
-    public static <T> void print(T print) {
-        System.out.println(print);
-    }
+
 }
