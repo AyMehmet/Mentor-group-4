@@ -1,4 +1,4 @@
-package com.generics;
+package com.generics.reyhan;
 
 public class PrinterTest {
 
@@ -7,5 +7,9 @@ public class PrinterTest {
         System.out.println("Hello");
         System.out.println("How is it going?");
 
+    }
+
+    public static <T> void print(T print) {
+        System.out.println(print);
     }
 }

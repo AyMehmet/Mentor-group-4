@@ -1,10 +1,10 @@
-package com.generics;
+package com.generics.reyhan;
 
-public class Printer {
+public class Printer <T>{
 
-    Integer thingtoPrint;
+    T thingtoPrint;
 
-    public Printer(Integer thingtoPrint) {
+    public Printer(T thingtoPrint) {
         this.thingtoPrint = thingtoPrint;
     }
 
