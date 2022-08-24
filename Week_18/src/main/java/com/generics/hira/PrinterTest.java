@@ -14,8 +14,10 @@ public class PrinterTest<T> {
         doublePrinted.print();
 
         Printer printed = new Printer("c");
-        printed.print2("letter");
+
 
     }
-
+    public <T>void print2(T thing){
+        System.out.println(thing);
+    }
 }

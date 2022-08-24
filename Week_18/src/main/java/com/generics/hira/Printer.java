@@ -12,7 +12,5 @@ public class Printer<T> {
         System.out.println(thingtoPrint);
     }
 
-    public <T>void print2(T thing){
-        System.out.println(thing);
-    }
+
 }
