@@ -1,10 +1,10 @@
 package com.generics;
 
-public class Printer {
+public class Printer <T>{
 
-    Integer thingtoPrint;
+    T thingtoPrint;
 
-    public Printer(Integer thingtoPrint) {
+    public Printer(T thingtoPrint) {
         this.thingtoPrint = thingtoPrint;
     }
 
