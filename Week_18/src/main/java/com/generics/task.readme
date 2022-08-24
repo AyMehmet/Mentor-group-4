@@ -1,0 +1,4 @@
+1 .create a  Printer class with the print method
+which can print all type of object.
+Implement the structer for Integer, Double and String.
+2. Create a generic method can print any type.
