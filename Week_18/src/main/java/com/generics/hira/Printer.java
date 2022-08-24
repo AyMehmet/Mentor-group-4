@@ -12,7 +12,7 @@ public class Printer<T> {
         System.out.println(thingtoPrint);
     }
 
-    public void print2(T thing){
+    public <T>void print2(T thing){
         System.out.println(thing);
     }
 }
