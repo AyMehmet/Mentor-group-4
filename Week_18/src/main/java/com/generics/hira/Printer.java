@@ -8,11 +8,7 @@ public class Printer<T> {
         this.thingtoPrint = thingtoPrint;
     }
 
-    public void print(){
+    public void print(T thingtoPrint){
         System.out.println(thingtoPrint);
     }
-
-    public void hiraMethod(T printedType){
-        System.out.println(printedType+" is printed");
-    }//hira
 }
