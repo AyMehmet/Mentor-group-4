@@ -8,7 +8,11 @@ public class Printer<T> {
         this.thingtoPrint = thingtoPrint;
     }
 
-    public void print(T thingtoPrint){
+    public void print(){
         System.out.println(thingtoPrint);
+    }
+
+    public void print2(T thing){
+        System.out.println(thing);
     }
 }
