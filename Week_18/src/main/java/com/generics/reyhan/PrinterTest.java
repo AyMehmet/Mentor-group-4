@@ -1,6 +1,6 @@
 package com.generics;
 
-public class PrinterTest {
+public class PrinterTest{
 
     public static void main(String[] args) {
 
@@ -8,4 +8,6 @@ public class PrinterTest {
         System.out.println("How is it going?");
 
     }
+
+
 }
