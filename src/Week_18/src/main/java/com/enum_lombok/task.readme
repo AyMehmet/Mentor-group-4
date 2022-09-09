@@ -1,0 +1,5 @@
+1. Create person class
+name,gender ,age
+gender will be enum
+implement lombok
+2. Create a implementation class PersonTest, and create person which represent our group put them into List name is groupList
