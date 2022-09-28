@@ -15,8 +15,6 @@ U
 %src/Week_20/BigO/BigO_Examples_2.java,0\5\058193d4c59ab22245d3c767dc9508f1939c284f
 U
 %src/Week_20/BigO/BigO_Examples_3.java,8\1\811bdb2a981e5d9d7f908f5479328bec7908a60e
-C
-src/Week_18/pom.xml,b\6\b6c4bafe1207e865299c897062566f1262f8b15e
 I
 src/Week_15/practice.java,f\5\f59632a60665e1ad1e51e5e5f895297d149a4444
 k
@@ -25,3 +23,11 @@ n
 >src/Week_18/src/main/java/com/generics/naran/PrinterNaran.java,3\8\38f05312d861b761b27a717d57ceeb101f10f061
 l
 <src/Week_18/src/main/java/com/generics/memo/PrinterTest.java,8\2\82b7e25301ec248092674de1e507d7ad61a75ab1
+N
+src/Week_14/SecondLargest.java,0\1\01043122fd2e3eacb8b1e931ee79f9956470a40b
+M
+src/Week_15/MapPractice1.java,9\8\983d3aea9fb739b6a241a7fe7a1bf6626face0a6
+U
+%src/Week_14/FrequencyofCharNaive.java,f\e\feda1d5941dd41e79a1ab12e72cf798e46122f27
+]
+-src/Week_14/FrequncyofCharwithCountArray.java,6\c\6c2b13c33af08d06a745b98d1855a0d1deaa480e
