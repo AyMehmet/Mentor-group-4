@@ -10,7 +10,8 @@ public class LinkedListCycle {
         listNode.next = new ListNode(2);
         listNode.next.next = new ListNode(0);
         listNode.next.next.next = new ListNode(4);
-        listNode.next.next.next.next = listNode.next;
+        listNode.next.next.next.next= new ListNode(5);
+        listNode.next.next.next.next.next= listNode.next.next;
 
         System.out.println(detectCycleWithTwoPointer(listNode).val);
         System.out.println(detectCycleWithHashSet(listNode).val);
