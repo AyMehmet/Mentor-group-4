@@ -9,7 +9,13 @@
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
+      <module name="Thymeleaf_Training" target="17" />
       <module name="Week_18" target="11" />
     </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="Thymeleaf_Training" options="-parameters" />
+    </option>
   </component>
 </project>

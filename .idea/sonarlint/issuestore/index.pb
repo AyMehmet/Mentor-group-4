@@ -31,3 +31,21 @@ U
 %src/Week_14/FrequencyofCharNaive.java,f\e\feda1d5941dd41e79a1ab12e72cf798e46122f27
 ]
 -src/Week_14/FrequncyofCharwithCountArray.java,6\c\6c2b13c33af08d06a745b98d1855a0d1deaa480e
+V
+&src/Week_23/PrintWordNumberofTime.java,b\2\b29dd8bfb105895fff076da99fa7a8fac957ab22
+K
+src/Week_23/SumNumbers.java,c\9\c939a0a33ccc718a0163204d49237b6e56ca4071
+P
+ src/Week_23/LinkedListCycle.java,c\6\c6578a2d2b724c97e17f83db764ec54f7fa7bffa
+U
+%src/Week_24/ArrayofProductStream.java,4\e\4e3e57fb383d40b34450aafbb39d78b94c80190c
+P
+ src/Week_24/ArrayOfProducts.java,1\9\1930268e3b253d4054fee22dab5d1e79ed8060c2
+V
+&src/Week_24/ArrayofProduct_Reyhan.java,a\4\a424e5858df012d10a8057af07c99acfe44eb781
+a
+1src/Week_24/ArrayofProduct_Reyhan_BruteForce.java,d\9\d992b85fa24a5c2f6d924f11cbaafb516e306dbd
+T
+$src/Week_24/FindGreatest_Reyhan.java,f\7\f7736d86a6e1e1261a9577f9fdbf75d0474d73c2
+U
+%src/Week_24/FindGreaterThanRight.java,1\4\14b401802758e3c1033088c743e524f5eadad504
