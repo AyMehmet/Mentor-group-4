@@ -6,7 +6,7 @@ public class ArrayofProduct_Reyhan {
 
     public static void main(String[] args) {
 
-        int[] givenArray = {0,1,2};
+        int[] givenArray = {1,1,2,2};
         System.out.println(Arrays.toString(product(givenArray)));
 
     }
@@ -22,11 +22,9 @@ public class ArrayofProduct_Reyhan {
         while (j < output.length) {
 
             if (i != j) product *= arr[i];
-
             i++;
 
             if (i >= arr.length) {
-
                 output[j] = product;
                 product = 1;
                 i = 0;
