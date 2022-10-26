@@ -2,20 +2,21 @@
 <project version="4">
   <component name="CompilerConfiguration">
     <annotationProcessing>
+      <profile default="true" name="Default" enabled="true" />
       <profile name="Maven default annotation processors profile" enabled="true">
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="PhoneBook" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
-      <module name="Thymeleaf_Training" target="17" />
-      <module name="Week_18" target="11" />
+      <module name="PhoneBook" target="11" />
     </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
-      <module name="Thymeleaf_Training" options="-parameters" />
+      <module name="PhoneBook" options="" />
     </option>
   </component>
 </project>

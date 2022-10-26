@@ -1,0 +1,15 @@
+
+E
+java:S3740C"/Provide the parametrized type for this generic.(²œé²
+t	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(ñ‚”Êýÿÿÿÿ
+p
+java:S2259"UA "NullPointerException" could be thrown; "detectCycleWithHashSet()" can return null.(óÁá›þÿÿÿÿ
+m
+java:S2259"WA "NullPointerException" could be thrown; "detectCycleWithArrayList()" can return null.(Í´Ùè
+s
+java:S2259"XA "NullPointerException" could be thrown; "detectCycleWithTwoPointer()" can return null.(Îƒˆñÿÿÿÿÿ
+S	java:S106"9Replace this use of System.out or System.err by a logger.(Îƒˆñÿÿÿÿÿ
+S	java:S106"9Replace this use of System.out or System.err by a logger.(óÁá›þÿÿÿÿ
+N	java:S106"9Replace this use of System.out or System.err by a logger.(Í´Ùè
+=
+java:S1659""Declare "fast" on a separate line.(þ“•åÿÿÿÿÿ

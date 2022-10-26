@@ -1,0 +1,8 @@
+
+f	java:S117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(δ‡γΏ
+f	java:S117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ΫΉ
+t	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(“΄όÒϊÿÿÿÿ
+N	java:S106
+"9Replace this use of System.out or System.err by a logger.(ξΡ
+h
+java:S1128"FRemove this unused import 'java.util.concurrent.atomic.AtomicInteger'.(Ώκδψÿÿÿÿ8ΈϋΑΊ0
