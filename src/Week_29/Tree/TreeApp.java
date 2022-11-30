@@ -7,6 +7,10 @@ public class TreeApp {
         for (int i = 0; i < numbers.length; i++) {
             tree.insert(numbers[i]);
         }
+        
+
+
+
       VisualizeTree.printTree(tree.root,null,false);
 
 //        tree.preOrderTraversal(tree.root);

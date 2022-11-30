@@ -3,7 +3,8 @@ package week_32.sum_of_digits;
 public class SumOfDigits {
 
     public static void main(String[] args) {
-        System.out.println("digitalRoot(129) = " + digitalRoot(129));
+
+        System.out.println("digitalRoot(129) = " + digitalRoot(125));
     }
 
 
